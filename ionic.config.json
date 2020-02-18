@@ -1,0 +1,7 @@
+{
+  "name": "wow",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

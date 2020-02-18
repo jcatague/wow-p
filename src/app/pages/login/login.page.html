@@ -1,0 +1,50 @@
+<ion-header>
+ 
+    <ion-buttons slot="start">
+       <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+</ion-header>
+
+<ion-content padding='true'>
+    <div class="center">
+      <img src="assets/g.png" />
+     <p>Account Login</p>
+    </div>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Username</ion-label>
+        <ion-input autocomplete="off" type="text" name="username" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input autocomplete="off" type="password" name="password"></ion-input>
+      </ion-item>
+
+ 
+    </ion-list>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div>
+             <ion-col>
+          <div>
+            1 of 3
+          </div>
+        </ion-col>
+        
+          </div>
+        </ion-col>
+        <ion-col>
+          <div>
+            <ion-button expand="block" share="round" color="success" (click)="loginAction()">Login</ion-button>
+          </div>
+        </ion-col>
+      
+      </ion-row>
+    </ion-grid>
+    
+   
+  </form>
+</ion-content>
