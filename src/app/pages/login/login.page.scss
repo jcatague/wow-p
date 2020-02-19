@@ -1,3 +1,50 @@
 img{
     padding: 38px;
 }
+.button-solid{
+
+
+
+    
+        --background-activated: #ffffff !important;
+        border: 1pt solid #C1C0C8 !important;
+    
+        --background: #ffffff !important;
+        --background-focused: red !important;
+        --background-hover: red !important;
+        --color: #757575;
+        --color-activated: #757575;
+        --color-focused: #757575;
+
+
+}
+.info{
+    color:#989898 !important;
+    font-size: 8pt !important;
+    text-align: left !important;
+}
+
+.alogin{
+    color:#989898 !important;
+    font-size: 8pt !important;
+    text-align: left !important;
+}
+
+.background-input {
+    margin-bottom: 2px!important;
+    ion-item {
+      
+        
+        --highlight-height: 0;
+        --background: #B74040;
+   
+        border-radius: 4px;
+      
+        ion-input {
+            --color: #ffffff;
+        }
+    }
+}
+.logina{
+    color:#9D2222 !important;
+}

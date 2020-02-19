@@ -8,18 +8,18 @@
 <ion-content padding='true'>
     <div class="center">
       <img src="assets/g.png" />
-     <p>Account Login</p>
+     <p class="logina">Account Login</p>
     </div>
   <form>
-    <ion-list>
+    <ion-list class="background-input">
       <ion-item>
-        <ion-label position="stacked">Username</ion-label>
-        <ion-input autocomplete="off" type="text" name="username" ></ion-input>
+  
+        <ion-input autocomplete="off" type="text" name="username" placeholder="Username" ></ion-input>
       </ion-item>
-
+<br>
       <ion-item>
-        <ion-label position="stacked">Password</ion-label>
-        <ion-input autocomplete="off" type="password" name="password"></ion-input>
+   
+        <ion-input autocomplete="off" type="password" name="password" placeholder="Password"></ion-input>
       </ion-item>
 
  
@@ -29,8 +29,10 @@
         <ion-col>
           <div>
              <ion-col>
-          <div>
-            cc
+          <div class="info">
+            need an account? <a class="alogin">Sign Up</a>
+            <br>
+            forgot your password? <a class="alogin" >Retrive</a>
           </div>
         </ion-col>
         
@@ -38,7 +40,7 @@
         </ion-col>
         <ion-col>
           <div>
-            <ion-button expand="block" share="round" color="success" (click)="loginAction()">Login</ion-button>
+            <ion-button expand="block" share="round"   (click)="loginAction()" >Login</ion-button>
           </div>
         </ion-col>
       
